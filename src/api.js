@@ -1,5 +1,5 @@
 // Усі звернення до бекенду проходять через цей файл.
-// Специфікація ендпоінтів — у README_TASK.md бекенду.
+// Специфікація ендпоінтів — у README_BE.md бекенду.
 
 export const API_URL = (import.meta.env.VITE_API_URL || "http://localhost:8000").replace(/\/$/, "");
 
